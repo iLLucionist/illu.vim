@@ -1,26 +1,84 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Colors
+" COLORS
+" ------
+" Cyberpunk style color scheme
 Plug 'dracula/vim'
-Plug 'phanviet/Sidonia'
+" Plug 'phanviet/Sidonia'
 
-" Plug 'junegunn/vim-easy-align'
-Plug 'vim-airline/vim-airline'
-Plug 'kien/ctrlp.vim'
+
+" GIT
+" ---
+" Git wrapper
 Plug 'tpope/vim-fugitive'
+" Git commit browser
+Plug 'junegunn/gv.vim'
+" Git gutter
+Plug 'airblade/vim-gitgutter'
+
+
+" UI
+" --
+" Statusbar
+Plug 'vim-airline/vim-airline'
+" Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
-" Plug 'leafgarland/typescript-vim'
+" Discover keybindings interactively
+Plug 'liuchengxu/vim-which-key'
+" Fuzzy (file) finder
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+
+
+" EDITING
+" -------
+" Align columns of text
+Plug 'junegunn/vim-easy-align'
+" Easily (un)comment
 Plug 'tpope/vim-commentary'
+" Close (html) tags
+Plug 'alvan/vim-closetag'
+" Align table-like content
+Plug 'godlygeek/tabular'
+" Highlight and close brackets and parens
+Plug 'jiangmiao/auto-pairs'
+
+
+" FILES AND TAGS
+" --------------
+" Plug 'kien/ctrlp.vim'
+
+
+" SYNTAX AND LANGUAGES
+" --------------------
+" HTML5
+Plug 'othree/html5.vim'
+" Javascript
+Plug 'pangloss/vim-javascript'
+" JSX
+Plug 'mxw/vim-jsx'
+" Typescript
+Plug 'leafgarland/typescript-vim'
+" Markdown
+Plug 'gabrielelana/vim-markdown'
 " Plug 'posva/vim-vue'
 
-" Plug 'othree/html5.vim'
-" Plug 'godlygeek/tabular'
-" Plug 'gabrielelana/vim-markdown'
-Plug 'jiangmiao/auto-pairs'
-Plug 'airblade/vim-gitgutter'
+
+" INTELLISENSE AND IDE
+" --------------------
+" Show documentation hints
+Plug 'Shougo/echodoc.vim'
+" Intellisense
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" File (tag) jumping
+Plug 'ludovicchabant/vim-gutentags'
+" Tags sdiebar and navigation
+Plug 'liuchengxu/vista.vim'
+
+
 " Plug 'scrooloose/nerdtree'
-" Plug 'alvan/vim-closetag'
 Plug 'junegunn/vim-emoji'
+Plug 'ryanoasis/vim-devicons'
 " Plug 'fszymanski/deoplete-emoji'
 
 " Autocompletion
@@ -32,8 +90,6 @@ Plug 'junegunn/vim-emoji'
 " Javascript
 " Plug 'ternjs/tern_for_vim', { 'do': 'npm install && npm install -g tern' }
 " Plug 'carlitux/deoplete-ternjs'
-Plug 'mxw/vim-jsx'
-Plug 'pangloss/vim-javascript'
 
 " Linting
 " For eslint specific, see:
@@ -45,13 +101,6 @@ Plug 'pangloss/vim-javascript'
 " File jumping
 " Install ctags!
 " Get JS ctags from here: https://github.com/romainl/ctags-patterns-for-javascript
-" Plug 'ludovicchabant/vim-gutentags'
-
-" Intellisense
-Plug 'Shougo/echodoc.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-tsserver coc-html coc-css coc-prettier coc-eslint coc-pairs coc-json coc-python coc-imselect coc-highlight coc-git coc-emoji coc-lists coc-stylelint coc-yaml' }
-
-Plug 'ryanoasis/vim-devicons'
 
 
 call plug#end()
