@@ -66,6 +66,10 @@ set sidescrolloff=15
 set sidescroll=1
 
 
+" Windows
+let g:choosewin_overlay_enable = 1
+
+
 " Prevent auto comment continuation on newline
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 

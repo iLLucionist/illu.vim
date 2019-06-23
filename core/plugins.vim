@@ -28,6 +28,14 @@ Plug 'liuchengxu/vim-which-key'
 " Fuzzy (file) finder
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+" Easily switch between windows
+Plug 't9md/vim-choosewin'
+" Accelerate up/down movements
+Plug 'rhysd/accelerated-jk'
+" Filebrowser sidebar
+Plug 'scrooloose/nerdtree'
+" Nice startup screen
+Plug 'mhinz/vim-startify'
 
 
 " EDITING
@@ -42,6 +50,10 @@ Plug 'alvan/vim-closetag'
 Plug 'godlygeek/tabular'
 " Highlight and close brackets and parens
 Plug 'jiangmiao/auto-pairs'
+" Distraction free writing
+Plug 'junegunn/goyo.vim'
+" Expand region in visual mode
+Plug 'terryma/vim-expand-region'
 
 
 " FILES AND TAGS
@@ -76,7 +88,6 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'liuchengxu/vista.vim'
 
 
-" Plug 'scrooloose/nerdtree'
 Plug 'junegunn/vim-emoji'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'fszymanski/deoplete-emoji'

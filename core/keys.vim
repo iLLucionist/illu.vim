@@ -5,14 +5,25 @@ nnoremap <Leader>q :q<Cr>
 noremap <Leader>sv :so ~/.config/nvim/init.vim<Cr>
 nnoremap <Leader>ev :e ~/.config/nvim/init.vim<Cr>
 nnoremap <Leader>pi :PlugInstall<Cr>
-nnoremap <Leader>wj :split<Cr><C-w>j
-nnoremap <Leader>wl :vsplit<Cr><C-w>l
 nnoremap <Leader>ee :Explore<Cr><C-w>l
 
-nnoremap <Leader>bw :w<Cr>
+
+" Accelerated movement
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
+
+
+" Buffers
+nnoremap <Leader>ww :w<Cr>
 nnoremap <Leader>bc :bd<Cr>
 nnoremap <Leader>bp :bp<Cr>
 nnoremap <Leader>bn :bn<Cr>
+
+
+" Windows
+nnoremap <Leader>wj :split<Cr><C-w>j
+nnoremap <Leader>wl :vsplit<Cr><C-w>l
+nmap - <Plug>(choosewin)
 
 
 " Tabs
@@ -20,6 +31,11 @@ nnoremap <Leader>tn :tabnew<Cr>
 nnoremap <Leader>[ :tabprev<Cr>
 nnoremap <Leader>] :tabnext<Cr>
 nnoremap <Leader>tc :tabclose<Cr>
+
+
+" Tags
+nnoremap tt :Vista!!<Cr>
+nnoremap ft :Vista finder<Cr>
 
 
 " Git
@@ -36,5 +52,4 @@ nnoremap <Leader>yb ggVGy
 nnoremap <silent> <Leader>f :NERDTreeToggle<CR>
 nnoremap <Leader><Tab> :CtrlPBuffer<Cr>
 nnoremap <silent> <Leader><Space> :FZF<Cr>
-
-" Keymap
+nnoremap <Leader>gg :Goyo<Cr>

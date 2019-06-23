@@ -8,6 +8,7 @@ let g:which_key_map = {}
 let g:which_key_map = {
             \ 'name': 'IlluVimRoot' ,
             \ 'q': ['q', 'quit-or-close'],
+            \ 'ww': ['w', 'write-buffer'],
             \ 't' : {
                 \ 'name' : '+Tabs',
                 \ 'n' : ['tabnew', 'new-tab'],
@@ -23,6 +24,7 @@ let g:which_key_map = {
                 \ 'name' : '+Windows',
                 \ 'j' : ['split', 'window-below'],
                 \ 'l' : ['vsplit', 'window-right'],
+                \ 'w' : ['w', 'write-buffer'],
                 \},
             \ 'b' : {
                 \ 'name' : '+Buffer',
