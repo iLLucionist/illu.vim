@@ -48,6 +48,15 @@ nnoremap <Leader>gv :GV<Cr>
 nnoremap <Leader>yb ggVGy
 
 
+" Surrounds
+map <silent>sa <Plug>(operator-surround-append)
+map <silent>sd <Plug>(operator-surround-delete)
+map <silent>sr <Plug>(operator-surround-replace)
+map <silent>saa <Plug>(operator-surround-append)<Plug>(textobj-multiblock-i)
+map <silent>sdd <Plug>(operator-surround-delete)<Plug>(textobj-anyblock-a)
+map <silent>srr <Plug>(operator-surround-replace)<Plug>(textobj-multiblock-a)
+
+
 " Plugin shortcuts
 nnoremap <silent> <Leader>f :NERDTreeToggle<CR>
 nnoremap <Leader><Tab> :CtrlPBuffer<Cr>

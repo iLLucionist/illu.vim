@@ -6,7 +6,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'dracula/vim'
 " Plug 'phanviet/Sidonia'
 
-
 " GIT
 " ---
 " Git wrapper
@@ -54,6 +53,14 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 " Expand region in visual mode
 Plug 'terryma/vim-expand-region'
+" Handle surrounds and other text objects easily
+Plug 'kana/vim-operator-user'
+Plug 'kana/vim-operator-replace'
+Plug 'kana/vim-textobj-user'
+Plug 'rhysd/vim-textobj-anyblock'
+Plug 'osyo-manga/vim-textobj-multiblock'
+Plug 'thinca/vim-textobj-between'
+Plug 'rhysd/vim-operator-surround'
 
 
 " FILES AND TAGS
@@ -73,6 +80,8 @@ Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 " Markdown
 Plug 'gabrielelana/vim-markdown'
+" Python textobjects
+Plug 'bps/vim-textobj-python'
 " Plug 'posva/vim-vue'
 
 
