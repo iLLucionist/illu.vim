@@ -6,16 +6,16 @@ instance.
 
 ## Installation
 
-1. Clone repo into `~/.config/nvim`:
+1. Clone repo into `~/.config/nvim` and install `vim-plug`:
 
 ```
-mkdir ~/.config/nvim; & git clone https://github.com/illucionist/illu.vim ~/.config/nvim/illu.vim
+mkdir ~/.config/nvim; git clone https://github.com/illucionist/illu.vim ~/.config/nvim/illu.vim; ln -s ~/.config/nvim/illu.vim/init.vim ~/.config/nvim/init.vim; ln -s ~/.config/nvim/illu.vim/coc-settings.json ~/.config/nvim/coc-settings.json; curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 2. Install `fzf` for fuzzy file finding:
 
 ```
-git clone --depth 1 https://github.com/junegunn.fzf.git ~/.fzf; ~/.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; ~/.fzf/install
 ```
 
 3. Install Meslo font with airline and nerd fonts support and rebuild font cache:
@@ -68,4 +68,13 @@ If you are on a debian-based system:
 sudo apt-get install texlive latexmk
 ```
 
+10. Restart your terminal, open nvim, and type (including \ = leader key):
+
+```
+\pi
+```
+
+This will install plugins and do all the work.
+
+Exit nvim and start again, and voila!
 That should be all!
