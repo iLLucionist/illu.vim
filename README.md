@@ -66,7 +66,7 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -; echo "de
 6. Make sure `nodejs` is installed, which `coc.vim` relies on:
 
 ```
-curl -sL install-node.now.sh/lts | bash
+sudo curl -sL install-node.now.sh/lts | sudo bash
 ```
 
 7. Make sure `ctags` is installed for `coc.vim` and `vim-gutentags`:
