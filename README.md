@@ -1,5 +1,7 @@
 # illu.vim
 
+**TODO**: Add instruction for `eslint`
+
 This is my **neovim** configuration. Importantly, this config will not work
 with vim because it includes plugins that rely on asnyc functionality, for
 instance.
@@ -26,6 +28,7 @@ This neovim config relies on the following dependencies:
 - `ctags`: Generate tags for every language
 - `ctags` for javascript: Javascript-specific tags
 - `texlive` and `latexmk`: Compile and view latex files
+- `eslint`: Javascript linting
 
 ## Auto-Installation
 
