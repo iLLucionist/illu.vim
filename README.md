@@ -4,6 +4,29 @@ This is my **neovim** configuration. Importantly, this config will not work
 with vim because it includes plugins that rely on asnyc functionality, for
 instance.
 
+This config primarily focuses on:
+
+- Webdevelopment with javascript, typescript, jsx, (s)css, and html.
+- Python development
+- Text editing with markdown and latex
+- Source code management with `git`
+- Seamless integration with `tmux`
+- Editing tricks (autoclose tags, etc.)
+- Intellisense features like completion, signatures, snippets, linting
+
+## Dependencies
+
+This neovim config relies on the following dependencies:
+
+- `vim-plug`: Manage plugins in vim
+- `node` and `yarn`: Two javascript package managers used to install additional dependencies for `coc.vim` and other plugins
+- `fzf`: Fuzzy file finder
+- `meslo`: Terminal font patched with nerd fonts and powerline (airline)
+- `ripgrep`: Quicker grepping with regex, used for filtering `fzf`
+- `ctags`: Generate tags for every language
+- `ctags` for javascript: Javascript-specific tags
+- `texlive` and `latexmk`: Compile and view latex files
+
 ## Installation
 
 1. Clone repo into `~/.config/nvim` and install `vim-plug`:

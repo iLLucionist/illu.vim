@@ -80,6 +80,7 @@ Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 " Markdown
 Plug 'gabrielelana/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do' : 'cd app & yarn install' }
 " Python textobjects
 Plug 'bps/vim-textobj-python'
 " LaTeX

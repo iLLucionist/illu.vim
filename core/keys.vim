@@ -68,3 +68,9 @@ nnoremap <Leader>gg :Goyo<Cr>
 map <Leader>lc :VimtexCompile<Cr>
 map <Leader>lv :VimtexView<Cr>
 map <Leader>le :VimtexErrors<Cr>
+
+
+" Markdown
+map <Leader>mv :MarkdownPreview<Cr>
+map <Leader>ms :MarkdownPreviewStop<Cr>
+map <Leader>mt :MarkdownPreviewToggle<Cr>
