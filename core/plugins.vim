@@ -82,6 +82,10 @@ Plug 'leafgarland/typescript-vim'
 Plug 'gabrielelana/vim-markdown'
 " Python textobjects
 Plug 'bps/vim-textobj-python'
+" LaTeX
+Plug 'lervag/vimtex'
+Plug 'matze/vim-tex-fold'
+Plug 'gi1242/vim-tex-autoclose'
 " Plug 'posva/vim-vue'
 
 

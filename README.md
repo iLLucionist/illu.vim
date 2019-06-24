@@ -60,4 +60,12 @@ sudo apt-get install exuberant-ctags
 git clone https://github.com/romainl/ctags-patterns-for-javascript.git ~/ctags-patterns-for-javascript; ln -s ~/ctags-patterns-for-javascript/ctagsrc ~/.ctags
 ```
 
+9. Install latex for tex support:
+
+If you are on a debian-based system:
+
+```
+sudo apt-get install texlive latexmk
+```
+
 That should be all!

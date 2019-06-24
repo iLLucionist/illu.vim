@@ -62,3 +62,9 @@ nnoremap <silent> <Leader>f :NERDTreeToggle<CR>
 nnoremap <Leader><Tab> :CtrlPBuffer<Cr>
 nnoremap <silent> <Leader><Space> :FZF<Cr>
 nnoremap <Leader>gg :Goyo<Cr>
+
+
+" Latex
+map <Leader>lc :VimtexCompile<Cr>
+map <Leader>lv :VimtexView<Cr>
+map <Leader>le :VimtexErrors<Cr>
