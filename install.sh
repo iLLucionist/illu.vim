@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "\e[1m\e[94m---===((( \e[97mInstalling 'illu.vim' neovim config\e[94m)))===---"
 echo "\e[0m"
 
