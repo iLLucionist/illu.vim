@@ -27,7 +27,17 @@ This neovim config relies on the following dependencies:
 - `ctags` for javascript: Javascript-specific tags
 - `texlive` and `latexmk`: Compile and view latex files
 
-## Installation
+## Auto-Installation
+
+**TL;DR**: Using Debian-based system? Copy + paste this in a terminal to auto install:
+
+```
+curl -sSL https://raw.githubusercontent.com/iLLucionist/illu.vim/master/install.sh | sh
+```
+
+## Manual Installation
+
+If **not** using Debian-based system, follow these steps and adjust based on your distro where necessary:
 
 1. Clone repo into `~/.config/nvim` and install `vim-plug`:
 
