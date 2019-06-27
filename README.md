@@ -101,7 +101,7 @@ git clone https://github.com/romainl/ctags-patterns-for-javascript.git ~/ctags-p
 If you are on a debian-based system:
 
 ```
-sudo apt-get install texlive latexmk
+sudo apt-get install texlive latexmk okular
 ```
 
 10. Restart your terminal, open nvim, and type (including \ = leader key):
@@ -114,3 +114,32 @@ This will install plugins and do all the work.
 
 Exit nvim and start again, and voila!
 That should be all!
+
+### Note on dependencies
+
+Many distro's do not have certain packages in their repos. Some rolling release
+distros, however, do, which makes it easier to install. For instance, on void
+linux the installation can be condensed and simplified into:
+
+1. Clone repo (see above)
+
+2. Install packages:
+
+```
+sudo xbps-install fzf ripgrep yarn nodejs ctags texlive okular neovim
+neovim-remote xdo curl wget unzip git
+```
+
+3. Install terminal font with nerd font support (see above)
+
+4. Install javascript ctags (see above)
+
+5. Specific to void linux: texlive installs additional packages via `tlmgr`, thus
+   `latexmk` still needs to be installed:
+
+```
+sudo /opt/texlive/2019/bin/x86_64-linux/tlmgr install latexmk
+```
+
+6. Restart terminal, start `neovim` and hit keycombo `\pi` to install plugins.
+   Close and restart neovim and you are all set!

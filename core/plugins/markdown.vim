@@ -7,4 +7,4 @@ let g:mkdp_auto_close=0
 " Instantly refresh preview on any change
 let g:mkdp_refresh_slow=0
 
-
+let g:mkdp_browser = 'firefox'
