@@ -1,6 +1,8 @@
 # illu.vim
 
-**TODO**: Add instruction for `eslint`
+**TODO**: Add instruction for `eslint`.
+
+**TODO**: Add instruction for 'Hack NF Regular 11'.
 
 This is my **neovim** configuration. Importantly, this config will not work
 with vim because it includes plugins that rely on asnyc functionality, for
