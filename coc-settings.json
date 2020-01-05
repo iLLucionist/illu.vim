@@ -46,8 +46,8 @@
     "diagnostic.checkCurrentLine": true,
     //git
     "git.enableGutters": true,
-    "git.addGlameToBufferVar": true,
-    "git.addGlameToVirtualText": true,
+    "git.addGBlameToBufferVar": true,
+    "git.addGBlameToVirtualText": true,
     "git.virtualTextPrefix": "\uf178",
     "git.addedSign.hlGroup": "GitGutterAdd",
     "git.changedSign.hlGroup": "GitGutterChange",
@@ -76,5 +76,7 @@
     // eslint
     "eslint.filetypes": ["javascript", "javascript.jsx", "javascriptreact"],
     "eslint.autoFix": true,
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": true,
+    // html
+    "html.format.indentInnerHtml": true
 }

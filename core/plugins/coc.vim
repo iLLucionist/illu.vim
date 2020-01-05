@@ -2,7 +2,7 @@ let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
 let g:coc_status_error_sign = '•'
 let g:coc_status_warning_sign = '•'
-let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-snippets', 'coc-prettier', 'coc-eslint', 'coc-tsserver', 'coc-pairs', 'coc-json', 'coc-python', 'coc-imselect', 'coc-highlight', 'coc-git', 'coc-emoji', 'coc-lists', 'coc-stylelint', 'coc-yaml', 'coc-vimtex']
+let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-snippets', 'coc-prettier', 'coc-eslint', 'coc-tsserver', 'coc-pairs', 'coc-json', 'coc-python', 'coc-imselect', 'coc-highlight', 'coc-git', 'coc-emoji', 'coc-lists', 'coc-stylelint', 'coc-yaml', 'coc-vimtex', 'coc-vetur']
 
 set hidden " If hidden is not set, TextEdit might fail
 set cmdheight=2 " Better display for messages

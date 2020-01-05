@@ -71,7 +71,7 @@ Plug 'rhysd/vim-operator-surround'
 " SYNTAX AND LANGUAGES
 " --------------------
 " HTML5
-Plug 'othree/html5.vim'
+" Plug 'othree/html5.vim'
 " Javascript
 Plug 'pangloss/vim-javascript'
 " JSX
@@ -87,7 +87,7 @@ Plug 'bps/vim-textobj-python'
 Plug 'lervag/vimtex'
 Plug 'matze/vim-tex-fold'
 Plug 'gi1242/vim-tex-autoclose'
-" Plug 'posva/vim-vue'
+Plug 'posva/vim-vue'
 
 
 " INTELLISENSE AND IDE

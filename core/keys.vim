@@ -28,8 +28,8 @@ nmap - <Plug>(choosewin)
 
 " Tabs
 nnoremap <Leader>tn :tabnew<Cr>
-nnoremap <Leader>[ :tabprev<Cr>
-nnoremap <Leader>] :tabnext<Cr>
+nnoremap <C-s>p :tabprev<Cr>
+nnoremap <C-s>n :tabnext<Cr>
 nnoremap <Leader>tc :tabclose<Cr>
 
 
