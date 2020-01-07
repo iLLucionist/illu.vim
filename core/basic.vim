@@ -50,7 +50,10 @@ set wildignore+=*.so,*~,*/.git/*,*/.DS_Store,*/tmp/*
 
 
 set t_Co=256
-set termguicolors
+" Apparently, termguicolors does not work well with urxvt, which messes up
+" the colors. It seems that turning off termguicolors also does not
+" negatively impact xfce4-terminal
+" set termguicolors
 set hlsearch
 color dracula
 " color sidonia
