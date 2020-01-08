@@ -63,6 +63,11 @@ Plug 'thinca/vim-textobj-between'
 Plug 'rhysd/vim-operator-surround'
 
 
+" TODO
+" ----
+Plug 'jceb/vim-orgmode'
+
+
 " FILES AND TAGS
 " --------------
 " Plug 'kien/ctrlp.vim'

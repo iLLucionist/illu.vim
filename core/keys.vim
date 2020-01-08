@@ -8,6 +8,10 @@ nnoremap <Leader>pi :PlugInstall<Cr>
 nnoremap <Leader>ee :Explore<Cr><C-w>l
 
 
+" Set localleader
+let maplocalleader = '-'
+
+
 " Accelerated movement
 nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
@@ -23,7 +27,7 @@ nnoremap <Leader>bn :bn<Cr>
 " Windows
 nnoremap <Leader>wj :split<Cr><C-w>j
 nnoremap <Leader>wl :vsplit<Cr><C-w>l
-nmap - <Plug>(choosewin)
+nmap <leader>wg <Plug>(choosewin)
 
 
 " Tabs
