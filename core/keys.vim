@@ -78,3 +78,9 @@ map <Leader>le :VimtexErrors<Cr>
 map <Leader>mv :MarkdownPreview<Cr>
 map <Leader>ms :MarkdownPreviewStop<Cr>
 map <Leader>mt :MarkdownPreviewToggle<Cr>
+
+" Terminal mappings
+if exists(':tnoremap')
+    tnoremap jk <C-\><C-n>
+    tnoremap kj <C-\><C-n>
+endif
