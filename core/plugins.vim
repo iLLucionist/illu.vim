@@ -109,6 +109,11 @@ Plug 'liuchengxu/vista.vim'
 
 Plug 'junegunn/vim-emoji'
 Plug 'ryanoasis/vim-devicons'
+
+
+" R plug
+Plug 'jalvesaq/nvim-r'
+
 " Plug 'fszymanski/deoplete-emoji'
 
 " Autocompletion
