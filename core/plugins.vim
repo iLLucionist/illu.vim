@@ -61,6 +61,7 @@ Plug 'rhysd/vim-textobj-anyblock'
 Plug 'osyo-manga/vim-textobj-multiblock'
 Plug 'thinca/vim-textobj-between'
 Plug 'rhysd/vim-operator-surround'
+Plug 'severin-lemaignan/vim-minimap'
 
 
 " TODO
