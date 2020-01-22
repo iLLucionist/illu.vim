@@ -84,3 +84,5 @@ if exists(':tnoremap')
     tnoremap jk <C-\><C-n>
     tnoremap kj <C-\><C-n>
 endif
+
+" Minimap
