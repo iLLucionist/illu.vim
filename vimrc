@@ -30,3 +30,5 @@ call s:source_file('plugins/whichkey.vim')
 call s:source_file('plugins/vimtex.vim')
 call s:source_file('plugins/markdown.vim')
 call s:source_file('plugins/nvimr.vim')
+
+autocmd FileType r setlocal shiftwidth=2 softtabstop=2 tabstop=2
