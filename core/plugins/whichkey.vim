@@ -1,7 +1,7 @@
 let g:mapleader="\\"
 let g:maplocalleader=","
 
-call which_key#register('\', "g:which_key_map")
+" call which_key#register('\', "g:which_key_map")
 nnoremap <silent> <Space> :<c-u>WhichKey '\'<CR>
 
 let g:which_key_map = {}
