@@ -63,7 +63,7 @@ map <silent>srr <Plug>(operator-surround-replace)<Plug>(textobj-multiblock-a)
 
 " Plugin shortcuts
 nnoremap <silent> <Leader>f :NERDTreeToggle<CR>
-nnoremap <Leader><Tab> :CtrlPBuffer<Cr>
+nnoremap <Leader><Tab> :Buffers<Cr>
 nnoremap <silent> <Leader><Space> :FZF<Cr>
 nnoremap <Leader>gg :Goyo<Cr>
 
@@ -85,4 +85,6 @@ if exists(':tnoremap')
     tnoremap kj <C-\><C-n>
 endif
 
-" Minimap
+" Todo
+nnoremap <Leader>tx ^rX
+nnoremap <Leader>tt ^rX

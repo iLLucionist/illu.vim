@@ -56,6 +56,7 @@ set t_Co=256
 " set termguicolors
 set hlsearch
 color dracula
+hi Comment ctermfg=14
 " color sidonia
 
 

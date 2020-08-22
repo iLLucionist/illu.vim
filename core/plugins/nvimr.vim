@@ -8,3 +8,5 @@ let R_objbr_opendf = 0
 let R_nvimpager = "vertical"
 " Set initial console width of R terminal
 let R_rconsole_width = 80
+" Enable folding
+let r_syntax_folding = 1

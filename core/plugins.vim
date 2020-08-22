@@ -23,7 +23,7 @@ Plug 'vim-airline/vim-airline'
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
 " Discover keybindings interactively
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
 " Fuzzy (file) finder
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
