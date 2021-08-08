@@ -46,6 +46,7 @@ nnoremap ft :Vista finder<Cr>
 nnoremap <Leader>gs :Gstatus<Cr>
 nnoremap <Leader>gc :Gcommit<Cr>
 nnoremap <Leader>gv :GV<Cr>
+nnoremap <Leader>gpl :Gpush lmdevnas1 master<Cr>
 
 
 " Copy buffer

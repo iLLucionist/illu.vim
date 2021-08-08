@@ -22,6 +22,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 " Tmux integration
 Plug 'christoomey/vim-tmux-navigator'
+" Plug 'tmux-plugins/vim-tmux-focus-events'
+" Plug 'amerlyq/vim-focus-autocmdtmux-plugins/vim-tmux-focus-events'
+Plug 'amerlyq/vim-focus-autocmd'
 " Discover keybindings interactively
 Plug 'liuchengxu/vim-which-key'
 " Fuzzy (file) finder
@@ -35,6 +38,8 @@ Plug 'rhysd/accelerated-jk'
 Plug 'scrooloose/nerdtree'
 " Nice startup screen
 Plug 'mhinz/vim-startify'
+" Better terminal
+Plug 'kassio/neoterm'
 
 
 " EDITING
@@ -62,6 +67,9 @@ Plug 'osyo-manga/vim-textobj-multiblock'
 Plug 'thinca/vim-textobj-between'
 Plug 'rhysd/vim-operator-surround'
 Plug 'severin-lemaignan/vim-minimap'
+" Asciidoc
+Plug 'habamax/vim-asciidoctor'
+
 
 
 " TODO

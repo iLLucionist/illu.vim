@@ -1,4 +1,7 @@
 " Basic settings
+set autoread
+au BufEnter,FocusGained,CursorHold * checktime
+
 set nocompatible
 set modelines=0
 filetype plugin indent on
@@ -13,6 +16,7 @@ set noswapfile
 set timeoutlen=500
 set signcolumn=yes
 set updatetime=300
+set splitright
 " set completefunc=emoji#complete
 " set completeopt=longest,menu
 " set completeopt-=preview
@@ -23,6 +27,7 @@ set backspace=indent,eol,start
 set backupcopy=yes
 set nobackup
 set nowritebackup
+
 
 
 " Tabs and backspace
@@ -56,6 +61,7 @@ set t_Co=256
 " set termguicolors
 set hlsearch
 color dracula
+highlight Comment ctermfg=cyan
 " color sidonia
 
 
@@ -113,3 +119,10 @@ function! FoldText()
 	let expansionString = repeat('.', w - strwidth(foldSizeStr.line.foldLevelStr.foldPercentage))
 	return line . expansionString . foldSizeStr . foldPercentage . foldLevelStr
 endfunction
+
+" Highlight quickslides entitites
+autocmd BufRead,BufNewFile *.qent setf qent
+
+" Highlighting asciidoc
+
+hi link asciidoctorBold String
