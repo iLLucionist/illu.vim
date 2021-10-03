@@ -12,3 +12,5 @@ let R_rconsole_width = 120
 let R_setwidth = 0
 let R_rconsole_width = 80
 let R_min_editor_width = 18
+" Enable folding
+let r_syntax_folding = 1

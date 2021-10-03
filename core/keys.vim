@@ -71,7 +71,7 @@ map <silent>srr <Plug>(operator-surround-replace)<Plug>(textobj-multiblock-a)
 
 " Plugin shortcuts
 nnoremap <silent> <Leader>f :NERDTreeToggle<CR>
-nnoremap <Leader><Tab> :CtrlPBuffer<Cr>
+nnoremap <Leader><Tab> :Buffers<Cr>
 nnoremap <silent> <Leader><Space> :FZF<Cr>
 nnoremap <Leader>gg :Goyo<Cr>
 
@@ -102,3 +102,7 @@ map <Leader>rt :RainbowToggle<Cr>
 " Coc-specific mappings
 nmap <silent> <Leader>gd :call CocAction('jumpDefinition', 'split')<Cr>
 nmap <silent> <Leader>gD :call CocAction('jumpDefinition', 'vsplit')<Cr>
+
+" Todo
+nnoremap <Leader>tx ^rX
+nnoremap <Leader>tt ^rX
