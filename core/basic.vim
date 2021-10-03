@@ -29,7 +29,6 @@ set nobackup
 set nowritebackup
 
 
-
 " Tabs and backspace
 set smartindent
 set tabstop=4
@@ -58,12 +57,22 @@ set t_Co=256
 " Apparently, termguicolors does not work well with urxvt, which messes up
 " the colors. It seems that turning off termguicolors also does not
 " negatively impact xfce4-terminal
-" set termguicolors
+set termguicolors
 set hlsearch
-color dracula
-highlight Comment ctermfg=cyan
+" color dracula
+color gruvbox
+" color nord
+" highlight Comment ctermfg=cyan
+syntax match parens /[(){}\[\]]/
+" highlight parens guifg=DraculaPink
+highlight parens guifg=GruvboxYellow
+hi! link parens DraculaPink
+" hi! link parens GruvboxYellow
+hi! link MatchParen Search
+highlight MatchParen ctermfg=Black ctermbg=9
+" hi! link MatchParen GruvboxRed
 " color sidonia
-
+let g:rainbow_active = 0
 
 " Column highlighting
 set colorcolumn=80
@@ -125,4 +134,4 @@ autocmd BufRead,BufNewFile *.qent setf qent
 
 " Highlighting asciidoc
 
-hi link asciidoctorBold String
+" hi link asciidoctorBold String

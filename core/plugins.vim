@@ -4,6 +4,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 " ------
 " Cyberpunk style color scheme
 Plug 'dracula/vim'
+Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
+Plug 'vigoux/oak'
 " Plug 'phanviet/Sidonia'
 
 " GIT
@@ -26,7 +29,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " Plug 'amerlyq/vim-focus-autocmdtmux-plugins/vim-tmux-focus-events'
 Plug 'amerlyq/vim-focus-autocmd'
 " Discover keybindings interactively
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
 " Fuzzy (file) finder
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
@@ -40,6 +43,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'mhinz/vim-startify'
 " Better terminal
 Plug 'kassio/neoterm'
+" Toggle zoom current window
+Plug 'szw/vim-maximizer'
 
 
 " EDITING
@@ -53,7 +58,7 @@ Plug 'alvan/vim-closetag'
 " Align table-like content
 Plug 'godlygeek/tabular'
 " Highlight and close brackets and parens
-Plug 'jiangmiao/auto-pairs'
+Plug 'windwp/nvim-autopairs'
 " Distraction free writing
 Plug 'junegunn/goyo.vim'
 " Expand region in visual mode
@@ -69,6 +74,8 @@ Plug 'rhysd/vim-operator-surround'
 Plug 'severin-lemaignan/vim-minimap'
 " Asciidoc
 Plug 'habamax/vim-asciidoctor'
+" Rainbow parentheses
+Plug 'luochen1990/rainbow'
 
 
 
@@ -95,8 +102,9 @@ Plug 'leafgarland/typescript-vim'
 " Markdown
 Plug 'gabrielelana/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do' : 'cd app & yarn install' }
-" Python textobjects
+" Python
 Plug 'bps/vim-textobj-python'
+Plug 'tmhedberg/SimpylFold'
 " LaTeX
 Plug 'lervag/vimtex'
 Plug 'matze/vim-tex-fold'

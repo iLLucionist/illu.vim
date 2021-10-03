@@ -9,7 +9,8 @@ nnoremap <Leader>ee :Explore<Cr><C-w>l
 
 
 " Set localleader
-let maplocalleader = '-'
+let g:mapleader="\\"
+let g:maplocalleader=","
 
 
 " Accelerated movement
@@ -27,7 +28,13 @@ nnoremap <Leader>bn :bn<Cr>
 " Windows
 nnoremap <Leader>wj :split<Cr><C-w>j
 nnoremap <Leader>wl :vsplit<Cr><C-w>l
+nnoremap <Leader>wl :vsplit<Cr>
 nmap <leader>wg <Plug>(choosewin)
+nnoremap zz :MaximizerToggle<Cr>
+
+
+" Folds
+nnoremap <Enter> za
 
 
 " Tabs
@@ -87,3 +94,11 @@ if exists(':tnoremap')
 endif
 
 " Minimap
+"
+
+" Rainbox Parens
+map <Leader>rt :RainbowToggle<Cr>
+
+" Coc-specific mappings
+nmap <silent> <Leader>gd :call CocAction('jumpDefinition', 'split')<Cr>
+nmap <silent> <Leader>gD :call CocAction('jumpDefinition', 'vsplit')<Cr>

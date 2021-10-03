@@ -5,9 +5,10 @@
     "suggest.noselect": false,
     "suggest.detailField":"abbr",
     "suggest.snippetIndicator": "🌟",
-    "suggest.triggerCompletionWait": 100,
+    "suggest.triggerCompletionWait": 200,
     "suggest.echodocSupport": true,
     "suggest.floatEnable": true,
+    "suggest.enablePreview": true ,
     "suggest.completionItemKindLabels": {
         "keyword": "\uf1de",
         "variable": "\ue79b",
@@ -73,10 +74,12 @@
     "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
     //python
     "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
     // eslint
     "eslint.filetypes": ["javascript", "javascript.jsx", "javascriptreact"],
     "eslint.autoFix": true,
     "eslint.autoFixOnSave": true,
     // html
-    "html.format.indentInnerHtml": true
+    "html.format.indentInnerHtml": true,
 }
