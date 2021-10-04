@@ -7,6 +7,7 @@ Plug 'dracula/vim'
 Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
 Plug 'vigoux/oak'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 " Plug 'phanviet/Sidonia'
 
 " GIT
@@ -27,7 +28,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'christoomey/vim-tmux-navigator'
 " Plug 'tmux-plugins/vim-tmux-focus-events'
 " Plug 'amerlyq/vim-focus-autocmdtmux-plugins/vim-tmux-focus-events'
-Plug 'amerlyq/vim-focus-autocmd'
+" Plug 'amerlyq/vim-focus-autocmd'
 " Discover keybindings interactively
 " Plug 'liuchengxu/vim-which-key'
 " Fuzzy (file) finder
