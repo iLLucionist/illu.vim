@@ -82,7 +82,7 @@ Plug 'luochen1990/rainbow'
 
 " TODO
 " ----
-Plug 'jceb/vim-orgmode'
+Plug 'kristijanhusak/orgmode.nvim'
 
 
 " FILES AND TAGS
